@@ -1,10 +1,220 @@
-<!DOCTYPE html>
-<html>
-<head lang="en">
+<!doctype html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <title></title>
+    <link rel="stylesheet" href="style/index.css"/>
+    <title>闫野的简历</title>
+    <style>
+        html,body{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+          font-size: 18px;
+            font-family: '微软雅黑';
+            font-weight: 300;
+            color: #f5f5f5;
+        }
+      .head{
+          background-color: #808080;
+          color: #fff;
+      }
+        img {
+            position: absolute;
+            right: 7px;
+            top: 25px;
+            display: block;
+            width: 150px;
+            height: 200px;
+            border: dashed 1px red;
+        }
+        .td{
+            border-top: solid 2px #000000;
+            border-left: solid 2px #000000;
+        }
+    .tab{
+        padding: 0 0;
+        border-right: solid 2px #000000;
+        border-bottom: solid 2px #000000;
+        position: relative;
+        }
+        .ps{
+            position: relative;
+        }
+        .min{
+            width: 20%;
+        }
+        table{
+            width: 100%;
+            height: 100%;
+        }
+        div{
+            background-color: #808080;
+            position: relative;
+            padding: 100px 50px;
+        }
+    </style>
 </head>
 <body>
-<h3>hell world</h3>
+
+   <div>
+       <div class="tab">
+           <table>
+               <tr class="head tr">
+                   <td colspan="3" class="ps">基本资料</td>
+               </tr>
+               <tr class="tr">
+                   <td>姓名：闫池</td>
+                   <td>性别：男</td>
+               </tr>
+               <tr>
+                   <td>年龄：25</td>
+                   <td>现居地址：北京海淀</td>
+
+               </tr>
+               <tr>
+                   <td>手机：15652176864</td>
+                   <td>邮箱：605895665@qq.com</td>
+               </tr>
+               <tr>
+                   <td>民族：汉族</td>
+                   <td>籍贯：河北承德</td>
+               </tr>
+               <tr>
+                   <td>国籍：中国</td>
+                   <td class="ps">婚姻状况：未婚</td>
+                   <td style="border:none;width: 13%" colspan="100"> <img class="hide" src="11.png"  alt="照片"/></td>
+               </tr>
+               <!---------------------求职意向------------------------------------->
+               <tr class="head">
+                   <td colspan="2">求职意向</td>
+               </tr>
+               <tr>
+                   <td>人才类型：</td>
+                   <td>应聘职位：web工程师、网页开发工程师</td>
+               </tr>
+               <tr>
+                   <td>求职类型：全职</td>
+                   <td>月薪要求：6000以上</td>
+               </tr>
+               <tr>
+                   <td>希望工作地区：</td>
+                   <td colspan="2">北京、上海、深圳、杭州等大中型城市!</td>
+               </tr>
+               <!-----------------------------项目经验-------------------------------------------->
+               <tr class="head">
+                   <td colspan="3">项目经验</td>
+               </tr>
+               <tr>
+                   <td class="min">团队合作做的项目：</td>
+                   <td colspan="2">
+
+                       学生管理系统：
+
+                       开发工具：MyEclipse
+                       数据库：mysql
+                       主要技术：javaee与JFrame框架
+                       项目概述：本项目兼顾前台与后台；
+                       前台用户界面交互，后台数据库连接管理
+
+                       在线书屋：
+
+                       开发工具：MyEclipse
+                       服务器：Tomcat6.0
+                       数据库：mysql
+                       使用技术：JSP + Servlet + JavaBean + DBUtil + 连接池
+                       项目概述：本项目采用表现层、业务逻辑层、控制层的
+                       MVC架构设计模式进行设计；
+                       前台达到功能有在线阅读、购买图书、上传和下载电子书功能；
+                       后台功能主要是对数据的操作，对图书的增删改查、会员的操作。
+
+                       网上购物商城：
+
+                       开发工具：MyEclipse
+                       服务器：Tomcat6.0
+                       数据库：mysql
+                       使用技术：JSP + Servlet +hibernate
+                       项目概述：本项目采用表现层、业务逻辑层、控制层
+                       的MVC架构设计模式进行设计，具备现有网上购物商城基本功能；
+                       主要技术运用hibernate在dao层进行操作。
+                   </td>
+               </tr>
+               <tr>
+                   <td class="min">自己业余做的项目：</td>
+                   <td colspan="2">
+                       1. 类似京东商城的购物车（servlet技术）
+                       2. 网站登录的验证码编写（response技术）
+                       3. 简单的聊天室（socket技术）
+                       4. 微软应用大赛的小应用（js+html5+css3技术）
+                   </td>
+               </tr>
+               <!--------------------------------专业技能--------------------------------->
+               <tr class="head">
+                   <td colspan="3"> 专业技能</td>
+               </tr>
+               <tr>
+                   <td colspan="3" align="center">
+                       <h4>一、java方向</h4>
+                       <p> 熟练掌握javase方面的所有基本知识 ；
+                           熟练掌握java面向对象编程(继承、封装、多态)及多线程技术；
+                           熟练掌握java新特性（增强for循环、jdbc等）；</p>
+                       <h4> 二、java web方向</h4>
+                       <p>
+                           熟练掌握J2EE架构技术, 熟悉MVC模式开发；熟悉J2EE规范中的JSP语法，Servlet、Filter、Listener的实现；
+                           掌握请求、响应结构的应用流程，熟练使用JSTL标签库，熟练使用javaAPI接口。
+
+                           熟练掌握 Hibernate ORM的原理和设计思想；
+                           熟练使用Hibernate持久化对象操作，Hibernate的单表映射以及表与表之间关联映射和关联操作。
+                       </p>
+                       <h4>三、数据库方向</h4>
+                       <p>
+                           熟练掌握JDBC编程，标准SQL语言语法，MySQL、Oracle数据库；
+                           掌握数据库的存储过程、触发器编写,精通在J2EE中对数据库存储过程。
+
+                           熟练使用hibernate中的HQL面向对象查询语言对数据库(增,删,改,查)存储过程，数据过滤，批量处理策略。
+                       </p>
+
+                   </td>
+               </tr>
+               <!---------------------------教育背景-------------------------------->
+               <tr class="head">
+                   <td colspan="3">教育背景</td>
+               </tr>
+               <tr>
+                   <td class="min">学历:专科</td>
+                   <td colspan="44">毕业院校：邢台学院</td>
+
+               </tr>
+               <tr>
+                   <td colspan="3" align="center">
+                       <p> 专业：软件工程（主学课程：java、java web(servlet、jsp、hibernate)、网页设计语言
+                           （html、css、js）、数据库(mysql、oracle))
+                       </p>
+                   </td>
+               </tr>
+               <!-----------------------------个人介绍---------------------------------------------->
+               <tr class="head">
+                   <td colspan="3">个人介绍</td>
+               </tr>
+               <tr>
+                   <td colspan="3" align="center">
+                       <p>
+                           长期的专业知识培训以及做项目的经历，使自己养成严谨、富有逻辑性的思维方式，有强烈的团队协作
+                           精神与责任感；通过课余的兼职和企业培训，养成了工作认真负责的态度。
+
+                           学习经历与经验可以参考本人的csdn博客:点击我查看，每一篇都代表着一段历程；每一篇都象征着一段成长；
+                           每一篇都富含着一个故事。课余时间在csdn网站论坛学到了很多企业文化以及前辈的经验、公司的制度；曾经
+                           两次获过CSDN官方博客二等奖；在校表现良好，成绩优异，被评为三好学生；参加全国信息技术大赛进入复赛。
+
+                           平时喜欢运动，上学期间常常早起晨练，固拥有健康的体魄；喜欢幽默，擅长于多种性格的人交流，
+                           与同学关系相处的很好，固善于与人沟通。
+                       </p>
+                   </td>
+               </tr>
+           </table>
+       </div>
+   </div>
 </body>
 </html>
+<script src="script/index.js"></script>

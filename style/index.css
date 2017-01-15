@@ -1,0 +1,40 @@
+body{
+    background-color: #ff0;
+}
+.head{
+    background-color: #808080;
+    color: #fff;
+}
+img {
+    position: absolute;
+    right: 7px;
+    top: 25px;
+    display: block;
+    width: 150px;
+    height: 200px;
+    border: dashed 1px red;
+}
+.td{
+    border-top: solid 2px #000080;
+    border-left: solid 2px #000080;
+}
+.tab{
+    padding: 0 0;
+    border-right: solid 2px #000080;
+    border-bottom: solid 2px #000080;
+    position: relative;
+}
+.ps{
+    position: relative;
+}
+.min{
+    width: 20%;
+}
+table{
+    width: 100%;
+    height: 100%;
+}
+div{
+    position: relative;
+    padding: 100px 50px;
+}
